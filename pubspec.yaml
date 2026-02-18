@@ -1,0 +1,82 @@
+name: easy_shop
+description: A new Flutter project.
+
+
+publish_to: "none"
+
+version: 1.0.0+6
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_analytics: ^12.1.2
+  flutter_svg: ^2.2.3
+  provider: ^6.1.5+1
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  titled_navigation_bar: ^5.0.0-nullsafety.0 # dart 3 imcompatible
+  animated_size_and_fade: ^5.1.1
+  progress_state_button: ^1.0.4
+  nanoid: ^1.0.0
+  internet_connection_checker: ^3.0.1
+  intl: ^0.20.2
+  timelines_plus: ^1.0.8
+  carousel_slider: ^5.1.2
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0  
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_native_splash: ^2.4.7
+  flutter_lints: ^6.0.0
+
+flutter_native_splash:
+  color: "#ea4b4b"
+  image: assets/images/tshirt250.png
+  android: true
+  io: true
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
+
+    - family: PantonBold
+      fonts:
+        - asset: assets/fonts/panton/Panton-BlackCaps.otf
+
+    - family: PantonBoldItalic
+      fonts:
+        - asset: assets/fonts/panton/Panton-BlackitalicCaps.otf
+
+    - family: Panton
+      fonts:
+        - asset: assets/fonts/panton/Panton-LightCaps.otf
+
+    - family: PantonItalic
+      fonts:
+        - asset: assets/fonts/panton/Panton-LightitalicCaps.otf
